@@ -1,6 +1,7 @@
 # ReduxCodeGenerator  
 
 1.write your router in separate files in a folder:  
+## the router file should include this:  
 router.post('/register', register);  
 router.get('/games', getAllGame);  
 router.get('/:name', getGameInfoByGameName);  
