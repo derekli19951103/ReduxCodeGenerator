@@ -36,7 +36,7 @@ class Reducer:
     def import_generator(self):
         imports = []
         imports.append(
-            'import ' + self.redux_name + 'Constants from ''../' + '_constants' + '/' + self.redux_name + 'Constants')
+            'import ' + self.redux_name + 'Constants from '+"'"+'../' + '_constants' + '/' + self.redux_name + 'Constants'+"'")
         return imports
 
     def export_generator(self):

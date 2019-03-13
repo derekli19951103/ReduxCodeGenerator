@@ -36,9 +36,9 @@ class Action:
     def import_generator(self):
         imports = []
         imports.append(
-            'import ' + self.redux_name + 'Service from ''../' + '_service' + '/' + self.redux_name + 'Service')
+            'import ' + self.redux_name + 'Service from '+"'"+'../' + '_service' + '/' + self.redux_name + 'Service'+"'")
         imports.append(
-            'import ' + self.redux_name + 'Constants from ''../' + '_constants' + '/' + self.redux_name + 'Constants')
+            'import ' + self.redux_name + 'Constants from '+"'"+'../' + '_constants' + '/' + self.redux_name + 'Constants'+"'")
         return imports
 
     def export_generator(self):
